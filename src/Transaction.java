@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 
 public class Transaction {
-    private Integer id;
+    private Integer id=0;
     private Long ammount;
     private LocalDateTime timestamp;
 
@@ -32,5 +32,14 @@ public class Transaction {
 
     public void setTimestamp(LocalDateTime timestamp) {
         this.timestamp = timestamp;
+    }
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "id=" + id +
+                ", ammount=" + ammount +
+                ", timestamp=" + timestamp +
+                '}';
     }
 }

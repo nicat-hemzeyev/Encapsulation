@@ -28,6 +28,10 @@ public class Main {
         A a3 = new A();
         System.out.println(A.count);
 
+//task5
+      Transaction transaction =new Transaction();
+        System.out.println(transaction);
+
 
     }
 }
